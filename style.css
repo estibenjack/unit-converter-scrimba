@@ -58,7 +58,7 @@ body {
     background: #F4F4F4;
     color: #9c77e2;
     max-width: 550px;
-    max-height: 430px;
+    height: 430px;
     display: flex;
     padding-top: 35px;
     padding-bottom: 35px;
