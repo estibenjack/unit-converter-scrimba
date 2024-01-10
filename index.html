@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Unit Converter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="hero">
+            <h1 class="title">Metric/Imperial Unit Converter</h1>
+                <input type="number" placeholder="0" id="input-el">
+                <button id="convert-btn">Convert</button>
+        </div>
+        <div class="main">
+            <div class="conversion">
+                <h2>Length (Metres / Feet)</h2>
+                <p id="length-text">0 metres = 0.000 feet | 0 feet = 0.000 metres</p>
+            </div>
+            <div class="conversion">
+                <h2>Volume (Litres / Gallons)</h2>
+                <p id="volume-text">0 litres = 0.000 gallons | 0 gallons = 0.000 litres</p>
+            </div>
+            <div class="conversion">
+                <h2>Mass (Kilograms / Pounds)</h2>
+                <p id="mass-text">0 kilograms = 0.000 pounds | 0 pounds = 0.000 kilograms</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="attribution">
+            <span> Project by <a href="https://scrimba.com/learn/learnjavascript/" target="_blank">Scrimba</a>.<br>
+                Coded by <a href="https://github.com/estibenjack" target="_blank">Steven Jackson</a>.</span>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
